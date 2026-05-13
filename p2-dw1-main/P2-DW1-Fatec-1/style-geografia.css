@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*header*/
+header {
+    padding-top: 200px;
+    padding-bottom: 50px;
+    background-image: url(images/fundo_geografia.png);
+
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#topo-cultura {
+    height: 400px;
+    margin: auto; 
+}
+header h1 {
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: #fff;
+    letter-spacing: 10px;
+    line-height: 70px;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 280px;
+    padding-left: 22%;
+/*borda em volta das letras*/   
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+/*impede quebra de linha do titulo*/
+    white-space: nowrap;
+}
+
+/*texto principal página*/
+
+.sobre {
+    padding-top: 80px;
+    text-align: left;
+    background-color: #e2e2e2;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-size: 30px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    border: black 2px solid;
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.sobre p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center; /* centraliza */
+    gap: 20px; /* espaço entre imagens */
+    border: black 2px solid;
+    background-color: black;
+    border-radius: 70px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-wrap: nowrap;
+}
+
+.galeria iframe {
+    width: 1250px;
+    border-radius: 50px;
+    height: 300px;
+    margin: 15px;
+    object-fit: cover;
+    display: fixed;
+}
+
+
+.container {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 1400px;
+    box-sizing: border-box;
+}
+.container-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+    background-color: #e2e2e2;
+}
+
