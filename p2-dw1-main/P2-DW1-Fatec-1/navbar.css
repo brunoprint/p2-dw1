@@ -3,7 +3,8 @@
     justify-content: center;
     margin-top: 20px;
     position: fixed;
-    margin-left: 21%;
+    margin-left: 25%;
+    z-index: 99;
 }
 
 .fundo{
@@ -28,7 +29,7 @@
     padding-left: 30px;
     font-size: 25px;
 }
-.navbar li:hover h1:hover {
+.navbar li h1:hover {
     background: #fff;
     border-radius:25px;
     color: black;
