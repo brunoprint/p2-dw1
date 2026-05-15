@@ -11,7 +11,7 @@ body {
   overflow-y: auto;    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/*header*/
+/*header----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 header {
     padding-top: 200px;
     padding-bottom: 50px;
@@ -42,7 +42,7 @@ header h1 {
 /*impede quebra de linha do titulo*/
     white-space: nowrap;
 }
-/*Linha do Tempo*/
+/*Linha do Tempo----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .linha-do-tempo {
     padding-top: 30px;
     background-color: black;
@@ -80,7 +80,7 @@ header h1 {
     color: #fff;
 }
 
-/*texto principal página*/
+/*texto principal página----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .sobre {
     padding-top: 80px;

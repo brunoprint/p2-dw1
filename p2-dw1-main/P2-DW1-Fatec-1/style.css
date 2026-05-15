@@ -12,6 +12,8 @@ body {
     border: 0;
     background-color: #e2e2e2;
 }
+/*TOPO SITE ----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 header {
     padding-top: 200px;
     padding-bottom: 50px;
@@ -23,8 +25,7 @@ header img {
     border: 8px solid rgba(0, 0, 0, 0.491);
     border-radius: 15px;
     margin-top: 25px;
-}
-#topo {
+}#topo {
     width: 1000px;
     height: 480px;
     margin: auto; 
@@ -46,7 +47,7 @@ header h1 {
     -webkit-text-stroke-color: black;
 }
 
-/*Sobre*/
+/*Sobre----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .sobre {
     padding-top: 80px;
     text-align: left;
@@ -94,7 +95,8 @@ header h1 {
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
-/*container turismo*/
+
+/*cards turismo----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .grid {
     background-color: #e2e2e2;
     display: grid;
