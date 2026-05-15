@@ -66,8 +66,8 @@ header h1 {
     border: black 2px solid;
     background-color: black;
     border-radius: 30px;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -95,21 +95,25 @@ header h1 {
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
-
 /*cards turismo----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .grid {
     background-color: #e2e2e2;
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+
     justify-content: center;
     gap: 50px;
-    margin: auto;
+    padding: 20px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 350px;
+
+    width: 100%;
+    max-width: 350px;
+
     height: 500px;
     overflow: hidden;
     transition: 0.3s ease-in-out;
@@ -118,7 +122,6 @@ header h1 {
     color: white;
     text-align: center;
     border: black 5px solid;
-
 }
 
 .card img {
