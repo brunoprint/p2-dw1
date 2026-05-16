@@ -96,6 +96,11 @@ header h1 {
     display: block;
 }
 
+.galeria img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
 .container {
     background-color: white;
     border: 2px solid white;
